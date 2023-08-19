@@ -2,7 +2,7 @@
 
 const config = {
   github: {
-    username: 'arifszn', // Your GitHub org/user name. (Required)
+    username: 'ppyadav', // Your GitHub org/user name. (Required)
     sortBy: 'stars', // stars | updated
     limit: 10, // How many projects to display.
     exclude: {
@@ -11,84 +11,79 @@ const config = {
     },
   },
   social: {
-    linkedin: 'ariful-alam',
-    twitter: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
+    linkedin: 'pp-yadav',
+    twitter: '',
+    mastodon: '',
     facebook: '',
     instagram: '',
     youtube: '', // example: 'pewdiepie'
     dribbble: '',
     behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
+    medium: '',
+    dev: '',
     stackoverflow: '', // example: '1/jeff-atwood'
     skype: '',
     telegram: '',
-    website: 'https://arifszn.com',
+    website: 'https://ppyadav.github.io',
     phone: '',
-    email: 'arifulalamszn@gmail.com',
+    email: '',
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      'https://rxresu.me/r/v4nYxxt0', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'PHP',
-    'Laravel',
-    'JavaScript',
-    'React.js',
-    'Node.js',
-    'Nest.js',
-    'MySQL',
-    'PostgreSQL',
-    'Git',
-    'Docker',
-    'PHPUnit',
-    'CSS',
-    'Antd',
-    'Tailwind',
+    'IBM Qradar SIEM',
+    'IBM Spectrum Protect',
+    'Web Application Pentest',
+    'Linux',
+    'Threat Analysis',
+    'Vulnerability Assessment',
+    'Active Directory,
+    'Log Analysis',
+    'Incident Response',
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
+      company: 'Inspira Enterprise',
+      position: 'Cyber Security Analyst',
+      from: 'January 2022',
       to: 'Present',
-      companyLink: 'https://example.com',
+      companyLink: 'https://inspiraenterprise.com/',
     },
-    {
+   /* {
       company: 'Company Name',
       position: 'Position',
       from: 'July 2019',
       to: 'August 2021',
       companyLink: 'https://example.com',
+    }, */
+  ],
+  certifications: [
+    {
+      name: 'Web Application Penetration Testing',
+      body: 'By The Taggart Institute',
+      year: '',
+      link: ''
     },
   ],
-  /* certifications: [
-    {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com'
-    },
-  ], */
   education: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
+      institution: 'Tolani college',
+      degree: 'BSc.IT',
+      from: '2018',
+      to: '2021',
     },
-    {
+    /*{
       institution: 'Institution Name',
       degree: 'Degree',
       from: '2012',
       to: '2014',
-    },
+    }, */
   ],
 
   // To hide the `My Projects` section, keep it empty.
-  externalProjects: [
+  /* externalProjects: [
     {
       title: 'Project Name',
       description:
@@ -103,12 +98,12 @@ const config = {
       imageUrl: 'https://via.placeholder.com/250x250',
       link: 'https://example.com',
     },
-  ],
+  ], */
   // Display blog posts from your medium or dev account. (Optional)
   blog: {
-    source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
-    limit: 2, // How many posts to display. Max is 10.
+    source: 'medium', // medium | dev
+    username: 'theebonypanther', // to hide blog section, keep it empty
+    limit: 5, // How many posts to display. Max is 10.
   },
   googleAnalytics: {
     id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
@@ -119,7 +114,7 @@ const config = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'wireframe',
+    defaultTheme: 'cupcake',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
@@ -179,11 +174,7 @@ const config = {
   },
 
   // Optional Footer. Supports plain text or HTML.
-  footer: `Made with <a 
-      class="text-primary" href="https://github.com/arifszn/gitprofile"
-      target="_blank"
-      rel="noreferrer"
-    >GitProfile</a> and ❤️`,
+  footer: `under construction ❤️`,
 };
 
 export default config;
