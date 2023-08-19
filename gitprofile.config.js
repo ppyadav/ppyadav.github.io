@@ -39,7 +39,7 @@ const config = {
     'Linux',
     'Threat Analysis',
     'Vulnerability Assessment',
-    'Active Directory,
+    'Active Directory',
     'Log Analysis',
     'Incident Response',
   ],
