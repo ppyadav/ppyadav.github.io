@@ -12,7 +12,7 @@ const config = {
   },
   social: {
     linkedin: 'pp-yadav',
-    twitter: '',
+    twitter: 'pyadav',
     mastodon: '',
     facebook: '',
     instagram: '',
